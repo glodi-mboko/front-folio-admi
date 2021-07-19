@@ -1,8 +1,9 @@
 @import "./polices/polices";
-@import "./pages/loginPage/loginPage";
 @import "./components/title/title";
-
+@import "./components/container_login/login";
+@import "./pages/loginPage/loginPage";
 * {
   margin: 0;
   padding: 0;
+  box-sizing: content-box;
 }

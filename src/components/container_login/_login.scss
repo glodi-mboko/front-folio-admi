@@ -1,0 +1,33 @@
+.container-login {
+  background-color: #0c171c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 30%;
+  padding: 5%;
+  margin-top: 35px;
+  &__image {
+    margin-bottom: 20px;
+    img {
+      border-radius: 100%;
+      width: 120px;
+      height: 120px;
+      border: 1px #606060 solid;
+    }
+  }
+  p {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  &__button {
+    background-color: #de4c4c;
+    padding: 2%;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
