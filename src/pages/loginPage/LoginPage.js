@@ -4,8 +4,10 @@ import Title from "../../components/title/Title";
 const LoginPage = () => {
   return (
     <div className="container">
+      <div className="container__bcg-top"></div>
+      <div className="container__bcg-bottom"></div>
       <Title />
-      <Login/>
+      <Login />
     </div>
   );
 };
