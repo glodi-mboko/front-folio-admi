@@ -24,11 +24,15 @@
     font-weight: lighter;
     margin-bottom: 20px;
   }
+  a {
+    text-decoration: none;
+    color: white;
+  }
   &__button {
     background-color: #de4c4c;
-    padding: 2%;
+    padding: 6%;
     width: 100px;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
     font-weight: 700;
     border: 1px #de4c4c solid;

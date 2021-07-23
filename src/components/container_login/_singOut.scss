@@ -1,0 +1,46 @@
+.sing-out {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #de4c4c;
+  color: white;
+  position: absolute;
+  top: 0%;
+  right: 100px;
+  width: 230px;
+  height: 189px;
+  font-size: 14px;
+  &__image {
+    margin-bottom: 10px;
+    img {
+      border-radius: 100%;
+      width: 70px;
+      height: 70px;
+      border: 1px #606060 solid;
+    }
+  }
+  p {
+    font-weight: lighter;
+    margin-bottom: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  &__button {
+    background-color: transparent;
+    padding: 6%;
+    width: 100px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 700;
+    border: 1px white solid;
+    cursor: pointer;
+    transition: border-color 200ms;
+    font-weight: normal;
+    &:hover {
+      border-color: #0c171c;
+    }
+  }
+}

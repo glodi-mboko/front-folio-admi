@@ -7,7 +7,7 @@ const LoginPage = () => {
       <div className="container__bcg-top"></div>
       <div className="container__bcg-bottom"></div>
       <Title />
-      <Login />
+      <Login myclass="container-login" buttonTxt="Login" route="/admi" />
     </div>
   );
 };
