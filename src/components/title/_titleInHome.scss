@@ -1,4 +1,4 @@
-.title {
+.title-in-home {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -9,6 +9,9 @@
   padding-top: 30px;
   > img {
     margin-right: 1%;
+  }
+  > h1 {
+    font-weight: normal;
   }
   & .modify-color {
     color: #de4c4c;

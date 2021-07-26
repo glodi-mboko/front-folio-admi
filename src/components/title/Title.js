@@ -1,9 +1,9 @@
 import React from "react";
 import monitor from "../../images/svg/monitor.svg";
 
-const Title = () => {
+const Title = ({myclass}) => {
   return (
-    <div className="title">
+    <div className={myclass}>
       <img src={monitor} alt="monitor" />
       <h1>
         Portfolio<span className="modify-color">Admi</span>

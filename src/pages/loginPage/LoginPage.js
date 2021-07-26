@@ -6,7 +6,7 @@ const LoginPage = () => {
     <div className="container">
       <div className="container__bcg-top"></div>
       <div className="container__bcg-bottom"></div>
-      <Title />
+      <Title myclass="title-in-home" />
       <Login myclass="container-login" buttonTxt="Login" route="/admi" />
     </div>
   );

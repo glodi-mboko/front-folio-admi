@@ -1,11 +1,13 @@
 @import "./polices/polices";
-@import "./components/title/title";
+@import "./components/title/titleInHome";
+@import "./components/title/titleInAdmi";
 @import "./components/container_login/login";
 @import "./pages/loginPage/loginPage";
-@import "./components/container_login/singOut";
+@import "./components/container_login/signOut";
+@import "./components/content_admi/contentAdmiPage";
 @import "./pages/Administration/administrationPage";
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
