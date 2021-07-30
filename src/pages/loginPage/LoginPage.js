@@ -1,5 +1,5 @@
 import React from "react";
-import Login from "../../components/container_login/ContainerLogin";
+import ContainerLogin from "../../components/container_login/ContainerLogin";
 import Title from "../../components/title/Title";
 const LoginPage = () => {
   return (
@@ -7,7 +7,11 @@ const LoginPage = () => {
       <div className="container__bcg-top"></div>
       <div className="container__bcg-bottom"></div>
       <Title myclass="title-in-home" />
-      <Login myclass="container-login" buttonTxt="Login" route="/admi" />
+      <ContainerLogin
+        myclass="login"
+        buttonTxt="Login"
+        route="/admi/all-projects"
+      />
     </div>
   );
 };

@@ -1,0 +1,42 @@
+.button {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  &__login,
+  &__sign-out,
+  &__card {
+    padding: 6%;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+  }
+  &__login {
+    background-color: #de4c4c;
+    border-radius: 15px;
+    border: 1px #de4c4c solid;
+    transition: background-color 200ms;
+    &:hover {
+      background-color: transparent;
+      font-weight: normal;
+    }
+  }
+  &__sign-out,
+  &__card {
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px white solid;
+    transition: border-color 200ms;
+    font-weight: normal;
+    &:hover {
+      border-color: #0c171c;
+    }
+  }
+  &__card {
+    border-radius: 10px;
+    margin: 15px;
+    &:hover {
+      border: 1px #de4c4c solid;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-.container-login {
+.login {
   background-color: #0c171c;
   color: white;
   display: flex;
@@ -23,25 +23,6 @@
     font-size: 18px;
     font-weight: lighter;
     margin-bottom: 20px;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  &__button {
-    background-color: #de4c4c;
-    padding: 6%;
-    width: 100px;
-    border-radius: 15px;
-    text-align: center;
-    font-weight: 700;
-    border: 1px #de4c4c solid;
-    cursor: pointer;
-    transition: background-color 200ms;
-    &:hover {
-      background-color: transparent;
-      font-weight: normal;
-    }
   }
   @media only screen and (min-width: 280px) and (max-width: 653px) {
     width: 75%;

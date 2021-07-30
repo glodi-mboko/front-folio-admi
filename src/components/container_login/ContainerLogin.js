@@ -1,17 +1,15 @@
 import React from "react";
 import Profil from "../../images/jpg/profil.jpg";
-import { Link } from "react-router-dom";
+import Button from "../button/Button";
 
-const ContainerLogin = ({ myclass, buttonTxt, route }) => {
+const ContainerLogin = ({ myclass, route, buttonTxt }) => {
   return (
     <div className={myclass}>
       <div className={`${myclass}__image`}>
         <img src={Profil} alt="profil" />
       </div>
       <p>Glodi MBOKO</p>
-      <Link to={route}>
-        <div className={`${myclass}__button`}>{buttonTxt}</div>
-      </Link>
+      <Button btnClass={myclass} buttonTxt={buttonTxt} route={route} />
     </div>
   );
 };

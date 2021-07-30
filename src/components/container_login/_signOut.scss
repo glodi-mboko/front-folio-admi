@@ -21,23 +21,4 @@
     font-weight: lighter;
     margin-bottom: 10px;
   }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  &__button {
-    background-color: transparent;
-    padding: 6%;
-    width: 100px;
-    border-radius: 30px;
-    text-align: center;
-    font-weight: 700;
-    border: 1px white solid;
-    cursor: pointer;
-    transition: border-color 200ms;
-    font-weight: normal;
-    &:hover {
-      border-color: #0c171c;
-    }
-  }
 }

@@ -5,19 +5,19 @@ const ContentHeadAdmi = () => {
   return (
     <div className="content-admi__head">
       <div className="label-link">
-        <NavLink activeClassName="active" to="/admi">
+        <NavLink activeClassName="active" to="/admi/all-projects">
           ALL PROJECTS
         </NavLink>
       </div>
       <div className="label-link">
-        <NavLink to="/adm">NEW PROJECT</NavLink>
+        <NavLink to="/admi/new-project">NEW PROJECT</NavLink>
       </div>
       <div className="label-link">
-        <NavLink to="/ad">MESSAGES</NavLink>
+        <NavLink to="/admi/messages">MESSAGES</NavLink>
         <div className="label-link__msg-number">5</div>
       </div>
       <div className="label-link">
-        <NavLink to="/a">SETTING</NavLink>
+        <NavLink to="/admi/setting">SETTING</NavLink>
       </div>
       <div className="search-zone">
         <img src={Search} alt="search" />
