@@ -1,12 +1,11 @@
 .content-admi {
   width: 84.5vw;
-  //height: 70vh;
   margin: 30px 100px;
   color: white;
   background-color: #081013;
   &__head {
     display: flex;
-    border-bottom: 6px #de4c4c solid;
+    border-bottom: 6px solid;
     & .active {
       color: #de4c4c;
     }

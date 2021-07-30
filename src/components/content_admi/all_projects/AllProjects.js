@@ -6,6 +6,7 @@ const AllProjects = () => {
       <CardProject />
     </div>
   );
+  
 };
 
 export default AllProjects;
