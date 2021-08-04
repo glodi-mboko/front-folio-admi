@@ -1,0 +1,23 @@
+.list-projects {
+  list-style: none;
+  width: 350px;
+  height: 350px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 10px;
+  //margin-left: 200px;
+  & .item {
+    border-bottom: 1px #de4c4c80 solid;
+    & a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      padding: 20px 20px 20px 0;
+      &.active,
+      &:hover {
+        background-color: #de4c4c;
+      }
+    }
+  }
+}
